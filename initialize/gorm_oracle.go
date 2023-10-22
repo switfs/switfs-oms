@@ -2,9 +2,9 @@ package initialize
 
 import (
 	//"github.com/dzwvip/oracle"
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/initialize/internal"
+	"github.com/switfs/switfs-oms/config"
+	"github.com/switfs/switfs-oms/global"
+	"github.com/switfs/switfs-oms/initialize/internal"
 
 	//_ "github.com/godror/godror"
 	"gorm.io/driver/mysql"

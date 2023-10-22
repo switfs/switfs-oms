@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/service/example"
-	"github.com/flipped-aurora/gin-vue-admin/server/service/system"
+	"github.com/switfs/switfs-oms/service/example"
+	"github.com/switfs/switfs-oms/service/system"
 )
 
 type ServiceGroup struct {

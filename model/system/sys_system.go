@@ -1,7 +1,7 @@
 package system
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
+	"github.com/switfs/switfs-oms/config"
 )
 
 // 配置文件结构体

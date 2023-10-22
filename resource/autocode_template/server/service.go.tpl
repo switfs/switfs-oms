@@ -1,10 +1,10 @@
 package {{.Package}}
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/{{.Package}}"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-    {{.Package}}Req "github.com/flipped-aurora/gin-vue-admin/server/model/{{.Package}}/request"
+	github.com/switfs/switfs-oms/global"
+	github.com/switfs/switfs-oms/model/{{.Package}}"
+	github.com/switfs/switfs-oms/model/common/request"
+    {{.Package}}Req "github.com/switfs/switfs-oms/model/{{.Package}}/request"
     {{- if .AutoCreateResource }}
     "gorm.io/gorm"
     {{- end}}

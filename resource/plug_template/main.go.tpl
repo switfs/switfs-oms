@@ -2,9 +2,9 @@ package {{ .Snake}}
 
 import (
 {{- if .HasGlobal }}
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/{{ .Snake}}/global"
+	"github.com/switfs/switfs-oms/plugin/{{ .Snake}}/global"
 {{- end }}
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/{{ .Snake}}/router"
+	"github.com/switfs/switfs-oms/plugin/{{ .Snake}}/router"
 	"github.com/gin-gonic/gin"
 )
 

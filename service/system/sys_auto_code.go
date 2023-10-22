@@ -13,15 +13,15 @@ import (
 	"strings"
 	"text/template"
 
-	ast2 "github.com/flipped-aurora/gin-vue-admin/server/utils/ast"
+	ast2 "github.com/switfs/switfs-oms/utils/ast"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/resource/autocode_template/subcontract"
+	"github.com/switfs/switfs-oms/resource/autocode_template/subcontract"
 	cp "github.com/otiai10/copy"
 	"go.uber.org/zap"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"github.com/switfs/switfs-oms/global"
+	"github.com/switfs/switfs-oms/model/system"
+	"github.com/switfs/switfs-oms/utils"
 
 	"gorm.io/gorm"
 )

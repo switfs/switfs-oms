@@ -3,7 +3,7 @@ package ast
 import (
 	"bytes"
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"github.com/switfs/switfs-oms/global"
 	"go/ast"
 	"go/parser"
 	"go/printer"

@@ -1,8 +1,8 @@
 package example
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
+	"github.com/switfs/switfs-oms/global"
+	"github.com/switfs/switfs-oms/model/system"
 )
 
 type ExaCustomer struct {
