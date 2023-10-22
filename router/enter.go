@@ -1,8 +1,8 @@
 package router
 
 import (
-	"github.com/switfs/switfs-oms/router/example"
-	"github.com/switfs/switfs-oms/router/system"
+	"github.com/flipped-aurora/gin-vue-admin/server/router/example"
+	"github.com/flipped-aurora/gin-vue-admin/server/router/system"
 )
 
 type RouterGroup struct {

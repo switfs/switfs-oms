@@ -1,7 +1,7 @@
 package request
 
 import (
-	"github.com/switfs/switfs-oms/model/system"
+	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
 )
 
 // Register User register structure

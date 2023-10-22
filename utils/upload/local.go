@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/switfs/switfs-oms/global"
-	"github.com/switfs/switfs-oms/utils"
+	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"github.com/flipped-aurora/gin-vue-admin/server/utils"
 	"go.uber.org/zap"
 )
 

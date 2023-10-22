@@ -1,8 +1,8 @@
 package {{.Package}}
 
 import (
-	"github.com/switfs/switfs-oms/api/v1"
-	"github.com/switfs/switfs-oms/middleware"
+	"github.com/flipped-aurora/gin-vue-admin/server/api/v1"
+	"github.com/flipped-aurora/gin-vue-admin/server/middleware"
 	"github.com/gin-gonic/gin"
 )
 

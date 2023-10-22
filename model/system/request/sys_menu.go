@@ -1,8 +1,8 @@
 package request
 
 import (
-	"github.com/switfs/switfs-oms/global"
-	"github.com/switfs/switfs-oms/model/system"
+	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
 )
 
 // Add menu authority info structure

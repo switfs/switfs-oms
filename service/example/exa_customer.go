@@ -1,11 +1,11 @@
 package example
 
 import (
-	"github.com/switfs/switfs-oms/global"
-	"github.com/switfs/switfs-oms/model/common/request"
-	"github.com/switfs/switfs-oms/model/example"
-	"github.com/switfs/switfs-oms/model/system"
-	systemService "github.com/switfs/switfs-oms/service/system"
+	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
+	"github.com/flipped-aurora/gin-vue-admin/server/model/example"
+	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
+	systemService "github.com/flipped-aurora/gin-vue-admin/server/service/system"
 )
 
 type CustomerService struct{}

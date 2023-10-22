@@ -1,8 +1,8 @@
 package initialize
 
 import (
-	"github.com/switfs/switfs-oms/config"
-	"github.com/switfs/switfs-oms/global"
+	"github.com/flipped-aurora/gin-vue-admin/server/config"
+	"github.com/flipped-aurora/gin-vue-admin/server/global"
 	"gorm.io/gorm"
 )
 

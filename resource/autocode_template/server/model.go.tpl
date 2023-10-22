@@ -2,7 +2,7 @@
 package {{.Package}}
 
 import (
-	"github.com/switfs/switfs-oms/global"
+	"github.com/flipped-aurora/gin-vue-admin/server/global"
 	{{ if .HasTimer }}"time"{{ end }}
 	{{ if .NeedJSON }}"gorm.io/datatypes"{{ end }}
 )

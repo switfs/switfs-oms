@@ -3,7 +3,7 @@ package internal
 import (
 	"fmt"
 
-	"github.com/switfs/switfs-oms/global"
+	"github.com/flipped-aurora/gin-vue-admin/server/global"
 	"gorm.io/gorm/logger"
 )
 

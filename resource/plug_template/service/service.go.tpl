@@ -2,7 +2,7 @@ package service
 
  {{- if .NeedModel }}
 import (
-   "github.com/switfs/switfs-oms/plugin/{{ .Snake}}/model"
+   "github.com/flipped-aurora/gin-vue-admin/server/plugin/{{ .Snake}}/model"
 )
 {{ end }}
 

@@ -2,13 +2,12 @@ package core
 
 import (
 	"fmt"
-	"os"
-
-	"github.com/switfs/switfs-oms/core/internal"
-	"github.com/switfs/switfs-oms/global"
-	"github.com/switfs/switfs-oms/utils"
+	"github.com/flipped-aurora/gin-vue-admin/server/core/internal"
+	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"github.com/flipped-aurora/gin-vue-admin/server/utils"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+	"os"
 )
 
 // Zap 获取 zap.Logger

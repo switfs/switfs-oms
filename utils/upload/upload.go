@@ -3,7 +3,7 @@ package upload
 import (
 	"mime/multipart"
 
-	"github.com/switfs/switfs-oms/global"
+	"github.com/flipped-aurora/gin-vue-admin/server/global"
 )
 
 // OSS 对象存储接口

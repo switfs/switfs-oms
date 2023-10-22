@@ -1,6 +1,6 @@
 FROM golang:alpine as builder
 
-WORKDIR /go/src/github.com/switfs/switfs-oms
+WORKDIR /go/src/github.com/flipped-aurora/gin-vue-admin/server
 COPY . .
 
 RUN go env -w GO111MODULE=on \
@@ -14,11 +14,11 @@ FROM alpine:latest
 
 LABEL MAINTAINER="SliverHorn@sliver_horn@qq.com"
 
-WORKDIR /go/src/github.com/switfs/switfs-oms
+WORKDIR /go/src/github.com/flipped-aurora/gin-vue-admin/server
 
-COPY --from=0 /go/src/github.com/switfs/switfs-oms/server ./
-COPY --from=0 /go/src/github.com/switfs/switfs-oms/resource ./resource/
-COPY --from=0 /go/src/github.com/switfs/switfs-oms/config.docker.yaml ./
+COPY --from=0 /go/src/github.com/flipped-aurora/gin-vue-admin/server/server ./
+COPY --from=0 /go/src/github.com/flipped-aurora/gin-vue-admin/server/resource ./resource/
+COPY --from=0 /go/src/github.com/flipped-aurora/gin-vue-admin/server/config.docker.yaml ./
 
 EXPOSE 8888
 ENTRYPOINT ./server -c config.docker.yaml

@@ -1,10 +1,9 @@
 package internal
 
 import (
-	"os"
-
-	"github.com/switfs/switfs-oms/global"
+	"github.com/flipped-aurora/gin-vue-admin/server/global"
 	"go.uber.org/zap/zapcore"
+	"os"
 )
 
 var FileRotatelogs = new(fileRotatelogs)

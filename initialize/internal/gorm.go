@@ -1,13 +1,12 @@
 package internal
 
 import (
+	"gorm.io/gorm/schema"
 	"log"
 	"os"
 	"time"
 
-	"gorm.io/gorm/schema"
-
-	"github.com/switfs/switfs-oms/global"
+	"github.com/flipped-aurora/gin-vue-admin/server/global"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 )

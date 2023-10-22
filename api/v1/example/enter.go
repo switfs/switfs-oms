@@ -1,6 +1,6 @@
 package example
 
-import "github.com/switfs/switfs-oms/service"
+import "github.com/flipped-aurora/gin-vue-admin/server/service"
 
 type ApiGroup struct {
 	CustomerApi

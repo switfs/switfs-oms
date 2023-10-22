@@ -1,7 +1,7 @@
 package example
 
 import (
-	"github.com/switfs/switfs-oms/global"
+	"github.com/flipped-aurora/gin-vue-admin/server/global"
 )
 
 // file struct, 文件结构体

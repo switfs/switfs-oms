@@ -1,9 +1,9 @@
 package example
 
 import (
+	v1 "github.com/flipped-aurora/gin-vue-admin/server/api/v1"
+	"github.com/flipped-aurora/gin-vue-admin/server/middleware"
 	"github.com/gin-gonic/gin"
-	v1 "github.com/switfs/switfs-oms/api/v1"
-	"github.com/switfs/switfs-oms/middleware"
 )
 
 type CustomerRouter struct{}

@@ -2,11 +2,10 @@ package system
 
 import (
 	"errors"
-
-	"github.com/switfs/switfs-oms/global"
-	"github.com/switfs/switfs-oms/model/system"
-	"github.com/switfs/switfs-oms/model/system/request"
-	"github.com/switfs/switfs-oms/model/system/response"
+	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
+	"github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
+	"github.com/flipped-aurora/gin-vue-admin/server/model/system/response"
 	"gorm.io/gorm"
 )
 

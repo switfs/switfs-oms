@@ -3,9 +3,9 @@ package main
 import (
 	"go.uber.org/zap"
 
-	"github.com/switfs/switfs-oms/core"
-	"github.com/switfs/switfs-oms/global"
-	"github.com/switfs/switfs-oms/initialize"
+	"github.com/flipped-aurora/gin-vue-admin/server/core"
+	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"github.com/flipped-aurora/gin-vue-admin/server/initialize"
 )
 
 //go:generate go env -w GO111MODULE=on

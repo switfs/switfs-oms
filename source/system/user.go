@@ -2,12 +2,11 @@ package system
 
 import (
 	"context"
-
+	sysModel "github.com/flipped-aurora/gin-vue-admin/server/model/system"
+	"github.com/flipped-aurora/gin-vue-admin/server/service/system"
+	"github.com/flipped-aurora/gin-vue-admin/server/utils"
 	"github.com/gofrs/uuid/v5"
 	"github.com/pkg/errors"
-	sysModel "github.com/switfs/switfs-oms/model/system"
-	"github.com/switfs/switfs-oms/service/system"
-	"github.com/switfs/switfs-oms/utils"
 	"gorm.io/gorm"
 )
 
