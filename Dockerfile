@@ -1,6 +1,6 @@
 FROM golang:alpine as builder
 
-WORKDIR /go/src/github.com/flipped-aurora/gin-vue-admin/server
+WORKDIR /go/src/github.com/switfs/switfs-oms
 COPY . .
 
 RUN go env -w GO111MODULE=on \
