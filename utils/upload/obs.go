@@ -3,9 +3,9 @@ package upload
 import (
 	"mime/multipart"
 
-	"github.com/switfs/switfs-oms/global"
 	"github.com/huaweicloud/huaweicloud-sdk-go-obs/obs"
 	"github.com/pkg/errors"
+	"github.com/switfs/switfs-oms/global"
 )
 
 var HuaWeiObs = new(Obs)

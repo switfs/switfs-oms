@@ -8,9 +8,9 @@ import (
 
 	"go.uber.org/zap"
 
+	"github.com/gin-gonic/gin"
 	"github.com/switfs/switfs-oms/global"
 	"github.com/switfs/switfs-oms/model/common/response"
-	"github.com/gin-gonic/gin"
 )
 
 type LimitConfig struct {

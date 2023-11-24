@@ -2,9 +2,9 @@ package example
 
 import (
 	"context"
+	"github.com/pkg/errors"
 	"github.com/switfs/switfs-oms/model/example"
 	"github.com/switfs/switfs-oms/service/system"
-	"github.com/pkg/errors"
 	"gorm.io/gorm"
 )
 

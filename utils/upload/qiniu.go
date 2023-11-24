@@ -7,9 +7,9 @@ import (
 	"mime/multipart"
 	"time"
 
-	"github.com/switfs/switfs-oms/global"
 	"github.com/qiniu/api.v7/v7/auth/qbox"
 	"github.com/qiniu/api.v7/v7/storage"
+	"github.com/switfs/switfs-oms/global"
 	"go.uber.org/zap"
 )
 

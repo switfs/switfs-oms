@@ -3,11 +3,11 @@ package system
 import (
 	"time"
 
+	"github.com/gin-gonic/gin"
+	"github.com/mojocn/base64Captcha"
 	"github.com/switfs/switfs-oms/global"
 	"github.com/switfs/switfs-oms/model/common/response"
 	systemRes "github.com/switfs/switfs-oms/model/system/response"
-	"github.com/gin-gonic/gin"
-	"github.com/mojocn/base64Captcha"
 	"go.uber.org/zap"
 )
 

@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/gofrs/uuid/v5"
 	"github.com/switfs/switfs-oms/global"
 	"github.com/switfs/switfs-oms/model/common/request"
 	"github.com/switfs/switfs-oms/model/system"
 	"github.com/switfs/switfs-oms/utils"
-	"github.com/gofrs/uuid/v5"
 	"gorm.io/gorm"
 )
 

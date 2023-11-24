@@ -4,24 +4,24 @@ import (
 	swaggerFiles "github.com/swaggo/files"
 	"net/http"
 
+	"github.com/gin-gonic/gin"
+	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/switfs/switfs-oms/docs"
 	"github.com/switfs/switfs-oms/global"
 	"github.com/switfs/switfs-oms/middleware"
 	"github.com/switfs/switfs-oms/router"
-	"github.com/gin-gonic/gin"
-	ginSwagger "github.com/swaggo/gin-swagger"
 )
 
 // 初始化总路由
 
 func Routers() *gin.Engine {
-	
+
 	// 设置为发布模式
 	if global.GVA_CONFIG.System.Env == "public" {
 		gin.SetMode(gin.ReleaseMode) //DebugMode ReleaseMode TestMode
 	}
 	Router := gin.New()
-	
+
 	InstallPlugin(Router) // 安装插件
 	systemRouter := router.RouterGroupApp.System
 	exampleRouter := router.RouterGroupApp.Example

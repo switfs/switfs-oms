@@ -82,5 +82,3 @@ func (i *InitDB) ToPgsqlConfig() config.Pgsql {
 		},
 	}
 }
-
-

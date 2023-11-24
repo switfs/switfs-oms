@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/sashabaranov/go-openai"
 	"github.com/switfs/switfs-oms/global"
 	"github.com/switfs/switfs-oms/model/system"
 	"github.com/switfs/switfs-oms/model/system/request"
-	"github.com/sashabaranov/go-openai"
 	"gorm.io/gorm"
 	"strings"
 )

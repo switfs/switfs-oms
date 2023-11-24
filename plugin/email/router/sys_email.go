@@ -1,9 +1,9 @@
 package router
 
 import (
+	"github.com/gin-gonic/gin"
 	"github.com/switfs/switfs-oms/middleware"
 	"github.com/switfs/switfs-oms/plugin/email/api"
-	"github.com/gin-gonic/gin"
 )
 
 type EmailRouter struct{}

@@ -35,6 +35,6 @@ func RunWindowsServer() {
 	time.Sleep(10 * time.Microsecond)
 	global.GVA_LOG.Info("server run success on ", zap.String("address", address))
 
-	fmt.Printf( address)
+	fmt.Printf(address)
 	global.GVA_LOG.Error(s.ListenAndServe().Error())
 }

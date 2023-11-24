@@ -1,9 +1,9 @@
 package system
 
 import (
+	"github.com/pkg/errors"
 	"github.com/switfs/switfs-oms/global"
 	"github.com/switfs/switfs-oms/model/system/response"
-	"github.com/pkg/errors"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

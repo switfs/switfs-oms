@@ -1,12 +1,12 @@
 package example
 
 import (
+	"github.com/gin-gonic/gin"
 	"github.com/switfs/switfs-oms/global"
 	"github.com/switfs/switfs-oms/model/common/request"
 	"github.com/switfs/switfs-oms/model/common/response"
 	"github.com/switfs/switfs-oms/model/example"
 	exampleRes "github.com/switfs/switfs-oms/model/example/response"
-	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )
 

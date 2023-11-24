@@ -2,9 +2,9 @@ package system
 
 import (
 	"context"
+	"github.com/pkg/errors"
 	. "github.com/switfs/switfs-oms/model/system"
 	"github.com/switfs/switfs-oms/service/system"
-	"github.com/pkg/errors"
 	"gorm.io/gorm"
 )
 

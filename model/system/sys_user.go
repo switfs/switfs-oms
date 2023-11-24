@@ -1,8 +1,8 @@
 package system
 
 import (
-	"github.com/switfs/switfs-oms/global"
 	"github.com/gofrs/uuid/v5"
+	"github.com/switfs/switfs-oms/global"
 )
 
 type SysUser struct {

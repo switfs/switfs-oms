@@ -1,9 +1,9 @@
 package middleware
 
 import (
+	"github.com/gin-gonic/gin"
 	"github.com/switfs/switfs-oms/config"
 	"github.com/switfs/switfs-oms/global"
-	"github.com/gin-gonic/gin"
 	"net/http"
 )
 

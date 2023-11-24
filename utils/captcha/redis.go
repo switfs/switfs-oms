@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/switfs/switfs-oms/global"
 	"github.com/mojocn/base64Captcha"
+	"github.com/switfs/switfs-oms/global"
 	"go.uber.org/zap"
 )
 

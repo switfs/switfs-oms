@@ -3,8 +3,8 @@ package core
 import (
 	"flag"
 	"fmt"
-	"github.com/switfs/switfs-oms/core/internal"
 	"github.com/gin-gonic/gin"
+	"github.com/switfs/switfs-oms/core/internal"
 	"os"
 	"path/filepath"
 

@@ -1,10 +1,10 @@
 package initialize
 
 import (
+	_ "github.com/go-sql-driver/mysql"
 	"github.com/switfs/switfs-oms/config"
 	"github.com/switfs/switfs-oms/global"
 	"github.com/switfs/switfs-oms/initialize/internal"
-	_ "github.com/go-sql-driver/mysql"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

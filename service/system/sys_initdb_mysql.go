@@ -5,15 +5,14 @@ import (
 	"errors"
 	"fmt"
 	"path/filepath"
-	
-	
+
 	"github.com/gookit/color"
 
-	"github.com/switfs/switfs-oms/utils"
+	"github.com/gofrs/uuid/v5"
 	"github.com/switfs/switfs-oms/config"
 	"github.com/switfs/switfs-oms/global"
 	"github.com/switfs/switfs-oms/model/system/request"
-	"github.com/gofrs/uuid/v5"
+	"github.com/switfs/switfs-oms/utils"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

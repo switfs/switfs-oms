@@ -1,8 +1,8 @@
 package example
 
 import (
-	v1 "github.com/switfs/switfs-oms/api/v1"
 	"github.com/gin-gonic/gin"
+	v1 "github.com/switfs/switfs-oms/api/v1"
 )
 
 type FileUploadAndDownloadRouter struct{}

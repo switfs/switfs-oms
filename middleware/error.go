@@ -8,8 +8,8 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/switfs/switfs-oms/global"
 	"github.com/gin-gonic/gin"
+	"github.com/switfs/switfs-oms/global"
 	"go.uber.org/zap"
 )
 

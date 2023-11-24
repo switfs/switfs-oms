@@ -1,11 +1,11 @@
 package system
 
 import (
+	"github.com/gin-gonic/gin"
 	"github.com/switfs/switfs-oms/global"
 	"github.com/switfs/switfs-oms/model/common/request"
 	"github.com/switfs/switfs-oms/model/common/response"
 	systemReq "github.com/switfs/switfs-oms/model/system/request"
-	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )
 

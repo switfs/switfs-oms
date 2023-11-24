@@ -3,8 +3,8 @@ package global
 import (
 	"sync"
 
-	"github.com/switfs/switfs-oms/utils/timer"
 	"github.com/songzhibin97/gkit/cache/local_cache"
+	"github.com/switfs/switfs-oms/utils/timer"
 
 	"golang.org/x/sync/singleflight"
 

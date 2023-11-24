@@ -4,11 +4,11 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/gin-gonic/gin"
 	"github.com/switfs/switfs-oms/global"
 	"github.com/switfs/switfs-oms/model/common/response"
 	"github.com/switfs/switfs-oms/service"
 	"github.com/switfs/switfs-oms/utils"
-	"github.com/gin-gonic/gin"
 )
 
 var casbinService = service.ServiceGroupApp.SystemServiceGroup.CasbinService

@@ -4,8 +4,8 @@ import (
 	"context"
 
 	adapter "github.com/casbin/gorm-adapter/v3"
-	"github.com/switfs/switfs-oms/service/system"
 	"github.com/pkg/errors"
+	"github.com/switfs/switfs-oms/service/system"
 	"gorm.io/gorm"
 )
 

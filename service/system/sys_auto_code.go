@@ -15,8 +15,8 @@ import (
 
 	ast2 "github.com/switfs/switfs-oms/utils/ast"
 
-	"github.com/switfs/switfs-oms/resource/autocode_template/subcontract"
 	cp "github.com/otiai10/copy"
+	"github.com/switfs/switfs-oms/resource/autocode_template/subcontract"
 	"go.uber.org/zap"
 
 	"github.com/switfs/switfs-oms/global"

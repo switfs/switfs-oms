@@ -13,10 +13,10 @@ import (
 
 	"github.com/switfs/switfs-oms/utils"
 
+	"github.com/gin-gonic/gin"
 	"github.com/switfs/switfs-oms/global"
 	"github.com/switfs/switfs-oms/model/system"
 	"github.com/switfs/switfs-oms/service"
-	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )
 

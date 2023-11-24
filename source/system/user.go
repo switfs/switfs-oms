@@ -2,11 +2,11 @@ package system
 
 import (
 	"context"
+	"github.com/gofrs/uuid/v5"
+	"github.com/pkg/errors"
 	sysModel "github.com/switfs/switfs-oms/model/system"
 	"github.com/switfs/switfs-oms/service/system"
 	"github.com/switfs/switfs-oms/utils"
-	"github.com/gofrs/uuid/v5"
-	"github.com/pkg/errors"
 	"gorm.io/gorm"
 )
 

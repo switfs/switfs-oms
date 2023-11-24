@@ -3,11 +3,11 @@ package initialize
 import (
 	"fmt"
 
+	"github.com/gin-gonic/gin"
 	"github.com/switfs/switfs-oms/global"
 	"github.com/switfs/switfs-oms/middleware"
 	"github.com/switfs/switfs-oms/plugin/email"
 	"github.com/switfs/switfs-oms/utils/plugin"
-	"github.com/gin-gonic/gin"
 )
 
 func PluginInit(group *gin.RouterGroup, Plugin ...plugin.Plugin) {
